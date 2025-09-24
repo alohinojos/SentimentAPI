@@ -1,18 +1,32 @@
 ■ SentimentAPI
+
 API RESTful desarrollada en ASP.NET Core para análisis de sentimiento de comentarios de usuarios.
+
 Los resultados se almacenan en SQL Server y la aplicación puede ejecutarse directamente 
+
 ■ Instalación
+
 git clone https://github.com/alohinojos/SentimentAPI.git
+
 cd SentimentAPI
+
 ■■ Configuración
+
 {
  "ConnectionStrings": {
+ 
  "DefaultConnection": "Server=localhost;Database=SentimentDB;User Id=sa;Password=TuContraseñaSegura123;"
+ 
  },
+ 
  "Logging": {
+ 
  "LogLevel": {
+ 
  "Default": "Information",
+ 
  "Microsoft.AspNetCore": "Warning"
+ 
  }
  },
  "AllowedHosts": "*"
